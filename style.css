@@ -29,6 +29,11 @@ p {
     transform: scale(125%);
     border: 5px solid black;
 }
+/* Project 1 */
+.project1 {
+    height: 100vh;
+    width: 100vw;
+}
 /* Project 3 */
 .linkliste {
     font-family: 'Times New Roman', Times, serif;
@@ -38,9 +43,4 @@ p {
     font-weight: bold;
     text-decoration: none;
     color: #4481ab;
-}
-/* Project 1 */
-.project1 {
-    height: 100vh;
-    width: 100vw;
 }
