@@ -114,6 +114,7 @@ p {
     border: 5px solid black;
     border-radius: 1.5em;
     margin: 1%;
+    box-shadow: 1px 1px 1px 1px;
 }
 .startseite-buttons a:hover {
     transform: scale(125%);
