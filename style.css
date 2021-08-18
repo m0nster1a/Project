@@ -57,12 +57,6 @@ p {
         transform: scale(80%);
     }
 }
-.main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem;
-}
 .top-header {
     background:#555;
     display: flex;
@@ -97,32 +91,6 @@ p {
     text-decoration: none;
     padding: 1% 0 ;
 }
-.main-sidebar {
-    background-color: #555;
-    height: 100vh;
-}
-.main-buttons {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-size: cover;
-    width: auto;
-}
-.main-buttons a {
-    background-color:rgb(66, 66, 66);
-    height: 150px;
-    width: 150px;
-    margin: 0.2em;
-    border-radius: 5%;
-    box-shadow: 2px 2px 3px 1px hsla(0, 100%, 0%, 0.2);
-    display: block;
-    transition-duration: 0.5s;
-}
-.main-buttons a:hover {
-    border-radius: 1.1em;
-    transform: translateY(-2.5%);
-    transform: scale(200%);
-}
 .bottom {
     display: flex;
     background-color: khaki; 
@@ -133,13 +101,22 @@ p {
     align-items: center;
     justify-content: center;
 }
-.kekse {
-    background-image: url(images/kekse.jpg);
-    background-size: inherit;
+.startseite-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
-.keinhunger {
-    background-image: url(images/keinhunger.png);
-    background-size: inherit;
+.startseite-buttons a {
+    display: block;
+    background-color:#4481ab;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 1.5em;
+    margin: 1%;
+}
+.startseite-buttons a:hover {
+    transform: scale(125%);
 }
 /* Seiten */
 .main-info {
