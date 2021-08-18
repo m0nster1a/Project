@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+body {
+    background-color: #fff;
+    margin: 0;
+    height: 100%;
+    display: block;
+}
+h1 {
+    margin: 0;
+    font-family: 'Knewave', cursive;
+    color: #555;
+}
+p {
+    margin: 0;
+}
+@media (max-width: 1201px) {
+    li {
+        font-size: 1em;
+    }
+    .main-buttons {
+        transform: scale(80%);
+    }
+}
+@media (max-width: 1200px) {
+    li {
+        font-size: 1em;
+    }
+    .main-buttons {
+        transform: scale(80%);
+    }
+}
+@media (max-width: 1024px) {
+    li {
+        font-size: 0.8em;
+    }
+    .main-buttons {
+        transform: scale(80%);
+    }
+}
+@media (max-width: 768px) {
+    li {
+        font-size: 0.6em;
+        margin: 1em;
+    }
+    .main-buttons {
+        transform: scale(80%);
+    }
+    .main {
+        margin: 0;
+    }
+}
+@media (max-width: 480px) {
+    li {
+        font-size: 0.4em;
+    }
+    .main-buttons {
+        transform: scale(80%);
+    }
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+.top-header {
+    background:#555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-bottom: 1 px solid rgb(92, 92, 92);
+    height: auto;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.header-nav a:hover {
+    color: #4481ab;
+}
+.bottom-header {
+    background-color: inherit;
+    color: #555;
+    font-family: 'Knewave', cursive;
+    font-size: 2em;
+    height: auto;
+    box-shadow: 0px 2px 5px 0.5px rgba(84, 84, 84, 0.3);
+    text-decoration: none;
+}
+.bottom-header a {
+    color:#555;
+    text-decoration: none;
+    padding: 1% 0 ;
+}
+.main-sidebar {
+    background-color: #555;
+    height: 100vh;
+}
+.main-buttons {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-size: cover;
+    width: auto;
+}
+.main-buttons a {
+    background-color:rgb(66, 66, 66);
+    height: 150px;
+    width: 150px;
+    margin: 0.2em;
+    border-radius: 5%;
+    box-shadow: 2px 2px 3px 1px hsla(0, 100%, 0%, 0.2);
+    display: block;
+    transition-duration: 0.5s;
+}
+.main-buttons a:hover {
+    border-radius: 1.1em;
+    transform: translateY(-2.5%);
+    transform: scale(200%);
+}
+.bottom {
+    display: flex;
+    background-color: khaki; 
+    height: 20px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+.kekse {
+    background-image: url(images/kekse.jpg);
+    background-size: inherit;
+}
+.keinhunger {
+    background-image: url(images/keinhunger.png);
+    background-size: inherit;
+}
+/* Seiten */
+.main-info {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    border: 1px solid black;
+    border-radius: 2em;
+}
+.produkt-bild {
+    border: 1px solid black;
+}
+.produkt-info {
+    padding: 5%;
+    height: 200px;
+    width: 200px;
+}
+.linkliste {
+    font-family: 'Times New Roman', Times, serif;
+    color: #555;
+}
+.linkliste a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #4481ab;
+}
