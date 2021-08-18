@@ -13,94 +13,6 @@ h1 {
 p {
     margin: 0;
 }
-@media (max-width: 1201px) {
-    li {
-        font-size: 1em;
-    }
-    .main-buttons {
-        transform: scale(80%);
-    }
-}
-@media (max-width: 1200px) {
-    li {
-        font-size: 1em;
-    }
-    .main-buttons {
-        transform: scale(80%);
-    }
-}
-@media (max-width: 1024px) {
-    li {
-        font-size: 0.8em;
-    }
-    .main-buttons {
-        transform: scale(80%);
-    }
-}
-@media (max-width: 768px) {
-    li {
-        font-size: 0.6em;
-        margin: 1em;
-    }
-    .main-buttons {
-        transform: scale(80%);
-    }
-    .main {
-        margin: 0;
-    }
-}
-@media (max-width: 480px) {
-    li {
-        font-size: 0.4em;
-    }
-    .main-buttons {
-        transform: scale(80%);
-    }
-}
-.top-header {
-    background:#555;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    border-bottom: 1 px solid rgb(92, 92, 92);
-    height: auto;
-}
-.header-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-.header-nav a:hover {
-    color: #4481ab;
-}
-.bottom-header {
-    background-color: inherit;
-    color: #555;
-    font-family: 'Knewave', cursive;
-    font-size: 2em;
-    height: auto;
-    box-shadow: 0px 2px 5px 0.5px rgba(84, 84, 84, 0.3);
-    text-decoration: none;
-}
-.bottom-header a {
-    color:#555;
-    text-decoration: none;
-    padding: 1% 0 ;
-}
-.bottom {
-    display: flex;
-    background-color: khaki; 
-    height: 20px;
-    bottom: 0;
-    width: 100%;
-    position: fixed;
-    align-items: center;
-    justify-content: center;
-}
 .startseite-buttons {
     display: flex;
     justify-content: flex-start;
@@ -119,23 +31,7 @@ p {
 .startseite-buttons a:hover {
     transform: scale(125%);
 }
-/* Seiten */
-.main-info {
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    height: 100vh;
-    border: 1px solid black;
-    border-radius: 2em;
-}
-.produkt-bild {
-    border: 1px solid black;
-}
-.produkt-info {
-    padding: 5%;
-    height: 200px;
-    width: 200px;
-}
+/* Project 3 */
 .linkliste {
     font-family: 'Times New Roman', Times, serif;
     color: #555;
