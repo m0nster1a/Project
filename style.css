@@ -23,13 +23,14 @@ p {
     background-color:#4481ab;
     height: 200px;
     width: 200px;
-    border: 5px solid black;
+    border: 5px solid transparent;
     border-radius: 1.5em;
     margin: 1%;
     box-shadow: 1px 1px 1px 1px;
 }
 .startseite-buttons a:hover {
     transform: scale(125%);
+    border: 5px solid black;
 }
 /* Project 3 */
 .linkliste {
