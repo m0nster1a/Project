@@ -1,0 +1,38 @@
+.main-buttons {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-size: cover;
+    width: auto;
+}
+.main-buttons a {
+    background-color:rgb(66, 66, 66);
+    height: 150px;
+    width: 150px;
+    margin: 0.2em;
+    border-radius: 5%;
+    box-shadow: 2px 2px 3px 1px hsla(0, 100%, 0%, 0.2);
+    display: block;
+    transition-duration: 0.5s;
+}
+.main-buttons a:hover {
+    border-radius: 1.1em;
+    transform: translateY(-2.5%);
+    transform: scale(200%);
+}
+
+
+
+
+.kekse {
+    background-image: url(images/kekse.jpg);
+    background-size: inherit;
+}
+.keinhunger {
+    background-image: url(images/keinhunger.png);
+    background-size: inherit;
+
+
+            <div>
+            <img src="images\kekse.jpg" height="200px" width="200px">
+        </div>
